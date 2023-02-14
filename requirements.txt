@@ -1,5 +1,8 @@
 asgi-redis==1.0.0
 channels==0.17.3
 daphne==0.15.0
-Django==1.10.4
+Django==3.2.18
 six==1.10.0
+autobahn>=20.12.3 # not directly required, pinned by Snyk to avoid a vulnerability
+cryptography>=39.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
+twisted>=22.10.0rc1 # not directly required, pinned by Snyk to avoid a vulnerability
